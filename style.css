@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Special+Gothic&family=Special+Gothic+Condensed+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ruda:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ruda:wght@400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #02020c;
+}
+.container {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    nav {
+        display: flex;
+        gap: 40px;
+        a {
+            color: white;
+            text-decoration: none;
+            font-family: Open Sans;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+        }
+    }
+    .button {
+        display: flex;
+        button {
+            cursor: pointer;
+        }
+    }
+}
+.button button:nth-child(1) {
+    background-color: #02020c;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.button button:nth-child(2) {
+    color: white;
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0%;
+border-radius: 4px;
+    padding: 15px 25px;
+    border: none;
+    background: linear-gradient(90deg,#C922E366 0%, #991EEA66 51%, #4917F666 100%);
+}
+.hero .heroTitle {
+    h1 {
+        font-family: Ruda;
+font-weight: 600;
+font-size: 64px;
+line-height: 82px;
+letter-spacing: 0%;
+color: white;
+span {
+    color: #9725D6;
+}
+    }
+    p {
+        font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #D7D7D7;
+margin: 20px 0;
+    }
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+.hero .heroTitle .btn button:nth-child(1) {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 3px;
+    background: linear-gradient(90deg,#C922E366 0%, #991EEA66 51%, #4917F666 100%);
+    color: white;
+    cursor: pointer;
+}
+.hero .heroTitle .btn button:nth-child(2) {
+    padding: 20px 30px;
+    background-color: #02020c;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+    position: relative;
+}
+.btn button:nth-child(2) ion-icon {
+    font-size: 18px;
+    border-radius: 50%;
+    border: 1px solid purple;
+    position: relative;
+    left: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 16px;
+}
+.ter img {
+    margin-top: 30px;
+}
+.image .class {
+    width: 72px;
+height: 72px;
+border-radius: 8px;
+background-color: #8A40FF;
+position: relative;
+top: -1015px;
+left: 10px;
+}
+.image .cat {
+    position: relative;
+    width: 140px;
+height: 140px;
+border-radius: 8px;
+top: 10px;
+left: -220px;
+}
+.image .rec {
+    position: relative;
+    top: -500px;
+    left:  190px;
+}
+.image .cattle {
+    position: relative;
+    top: 40px;
+    left: -170px;
+}
+.image .tang {
+    position: relative;
+    top: -370px;
+    left: 250px;
+}
+.section {
+    margin-top: -200px;
+}
+.section .block {
+border-radius: 4px;
+border: 1px solid #8A40FF;
+width: 400px;
+height: 430px;
+margin-top: 100px;
+position: relative;
+}
+.section h1 {
+    font-family: Ruda;
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+.block .red {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.block .it {
+    position: relative;
+    left: 260px;
+    top: 15px;
+}
+.block .id {
+    position: relative;
+    left: 165px;
+    top: 115px;
+}
+.block .net {
+    position: relative;
+    left: 260px;
+    top: 125px;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+    width: 92px;
+    height: 89px;
+}
+.block .text {
+    margin-top: 160px;
+    margin-left: 17px;
+    h3 {
+        font-family: Open Sans;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+margin: 10px 0;
+    }
+    p {
+        color: #D7D7D7;
+        font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+    }
+}
+.section .block .text ion-icon {
+    font-size: 25px;
+    margin-left: 320px;
+    color: white;
+    margin-bottom: 50px;
+}
+.section .wer {
+    display: flex;
+    justify-content: space-between;
+}
+.section .rew{
+    color: white;
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0%;
+border-radius: 3px;
+    padding: 15px 25px;
+    border: none;
+    background: linear-gradient(90deg,#C922E366 0%, #991EEA66 51%, #4917F666 100%);
+    margin-top: 30px;
+}
+.ret {
+    margin-top: 50px;
+    h1 {
+        font-family: Ruda;
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+margin-bottom: 50px;
+    }
+}
+.ret .artworks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ret .artworks .wet {
+    background-color: #D9D9D914;
+    width: 350px;
+    height: 125px;
+    h2 {
+        color: white;
+        font-family: Open Sans;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+    }
+    h2 span {
+        font-family: Open Sans;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #D7D7D7;
+    }
+    img {
+        width: 80px;
+        height: 80px;
+    }
+} 
+.artworks .wet .was {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.artworks .wek {
+    width: 350px;
+    height: 125px;
+    background: linear-gradient(90deg,#C922E366 0%, #991EEA66 51%, #4917F666 100%);
+}
+.artworks .wek .was {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    h2 {
+        color: white;
+        font-family: Open Sans;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+    }
+    h2 span {
+        font-family: Open Sans;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #D7D7D7;
+    }
+}
+.ret .ARTwork {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ret .ARTwork .wet {
+    background-color: #D9D9D914;
+    width: 350px;
+    height: 125px;
+    h2 {
+        color: white;
+        font-family: Open Sans;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+    }
+    h2 span {
+        font-family: Open Sans;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #D7D7D7;
+    }
+    img {
+        width: 80px;
+        height: 80px;
+    }
+} 
+.ARTwork .wet .was {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+.fot {
+    margin-top: 40px;
+    h1 {
+        font-family: DM Sans;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+    }
+    p {
+        font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #D7D7D7;
+margin: 30px 0;
+    }
+    ion-icon {
+        width: 16px;
+        height: 16px;
+        color: white;
+    }
+}
+.der {
+    display: flex;
+    gap: 30px;
+}
+.bg {
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(90deg,#C922E366 0%, #991EEA66 51%, #4917F666 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.tr {
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(90deg,#C922E366 0%, #991EEA66 51%, #4917F666 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.hr {
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(90deg,#C922E366 0%, #991EEA66 51%, #4917F666 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.top {
+    margin-top: 50px;
+    h1 {
+        font-family: DM Sans;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+    }
+    h2 {
+        font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #D7D7D7;
+    }
+}
+.get  {
+    margin-top: 60px;
+    h1 {
+        font-family: DM Sans;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+    }
+    p{
+        font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #D7D7D7;
+margin: 30px 0;
+    }
+    input {
+        font-family: DM Sans;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 15px 50px;
+background-color: #02020c;
+border: 1px solid #D7D7D7;
+border-radius: 7px;
+color: white;
+    }
+    button {
+        padding: 15px 15px;
+        background-color: #02020c;
+        color: white;
+        border: 1px solid purple;
+        border-radius: 7px;
+        margin-left: -13px;
+    }
+}
